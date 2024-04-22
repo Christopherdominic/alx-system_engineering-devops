@@ -1,7 +1,7 @@
-# Install puppet-lint
-package { 'puppet-lint':
-  ensure   => 'latest',
-  name     => 'puppet-lint',
-  provider => 'gem'
+#!/usr/bin/pup
+# Install a specific version of flask
+package { 'flask':
+  ensure   => '2.1.0',
+  provider => 'pip'
 }
 
